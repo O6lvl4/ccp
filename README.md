@@ -23,6 +23,8 @@ That means your keybindings, shared instructions, and project memory would need 
 
 Edit `~/.claude/keybindings.json` once → every profile picks it up. Override `settings.json` in your work profile → only that profile has different permissions/hooks.
 
+**Your original `~/.claude/` is never modified by ccp.** Without any active profile, Claude Code works exactly as before — no setup needed, no side effects. Profiles are purely additive.
+
 ## Install
 
 ```bash
