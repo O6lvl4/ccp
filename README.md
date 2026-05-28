@@ -2,6 +2,8 @@
 
 Switch Claude Code configurations like AWS profiles — without duplicating shared settings.
 
+[日本語](./README.ja.md)
+
 ## The Problem
 
 Claude Code reads its config from `~/.claude/` by default, but supports `CLAUDE_CONFIG_DIR` to change the location. Switching this directory gives you separate profiles, but **everything** becomes separate: `CLAUDE.md`, `settings.json`, `keybindings.json`, project memory — all of it.
